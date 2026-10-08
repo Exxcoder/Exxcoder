@@ -1,64 +1,70 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="760" height="74" viewBox="0 0 760 74">
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="78" viewBox="0 0 760 78">
   <defs>
-    <linearGradient id="dockBg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="dockBar" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#ffffff" stop-opacity="0.08" />
-      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.01" />
     </linearGradient>
     <linearGradient id="dockBorder" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.3" />
-      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.05" />
-      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.2" />
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.35" />
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.06" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.25" />
     </linearGradient>
-    <linearGradient id="cellBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.12" />
-      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.03" />
+    <linearGradient id="badge3D" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.2" />
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.04" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.3" />
     </linearGradient>
   </defs>
 
 
-  <rect x="1" y="1" width="758" height="72" rx="36" fill="url(#dockBg)" stroke="url(#dockBorder)" stroke-width="1.2" />
+  <rect x="2" y="2" width="756" height="74" rx="37" fill="url(#dockBar)" stroke="url(#dockBorder)" stroke-width="1.4" />
 
 
-  <g fill="url(#cellBg)" stroke="url(#dockBorder)" stroke-width="1">
-    <rect x="25" y="14" width="46" height="46" rx="14" />
-    <rect x="90" y="14" width="46" height="46" rx="14" />
-    <rect x="155" y="14" width="46" height="46" rx="14" />
-    <rect x="220" y="14" width="46" height="46" rx="14" />
-    <rect x="285" y="14" width="46" height="46" rx="14" />
-    <rect x="350" y="14" width="46" height="46" rx="14" />
-    <rect x="415" y="14" width="46" height="46" rx="14" />
-    <rect x="480" y="14" width="46" height="46" rx="14" />
-    <rect x="545" y="14" width="46" height="46" rx="14" />
-    <rect x="610" y="14" width="46" height="46" rx="14" />
-    <rect x="675" y="14" width="46" height="46" rx="14" />
+  <g fill="url(#badge3D)" stroke="url(#dockBorder)" stroke-width="1">
+    <rect x="24" y="15" width="48" height="48" rx="14" />
+    <rect x="96" y="15" width="48" height="48" rx="14" />
+    <rect x="168" y="15" width="48" height="48" rx="14" />
+    <rect x="240" y="15" width="48" height="48" rx="14" />
+    <rect x="312" y="15" width="48" height="48" rx="14" />
+    <rect x="384" y="15" width="48" height="48" rx="14" />
+    <rect x="456" y="15" width="48" height="48" rx="14" />
+    <rect x="528" y="15" width="48" height="48" rx="14" />
+    <rect x="600" y="15" width="48" height="48" rx="14" />
+    <rect x="672" y="15" width="48" height="48" rx="14" />
   </g>
 
 
   <g fill="#ffffff">
 
-    <path d="M38 27 L41 47 L48 49 L55 47 L58 27 Z" fill="none" stroke="#ffffff" stroke-width="2" />
+    <path d="M38 29 L41 49 L48 51 L55 49 L58 29 Z" fill="none" stroke="#ffffff" stroke-width="2" />
+    <text x="48" y="44" font-size="10" font-weight="900" font-family="sans-serif" text-anchor="middle">5</text>
 
-    <path d="M103 27 L106 47 L113 49 L120 47 L123 27 Z" fill="none" stroke="#ffffff" stroke-width="2" />
+    <path d="M110 29 L113 49 L120 51 L127 49 L130 29 Z" fill="none" stroke="#ffffff" stroke-width="2" />
+    <text x="120" y="44" font-size="10" font-weight="900" font-family="sans-serif" text-anchor="middle">3</text>
 
-    <text x="178" y="44" font-family="sans-serif" font-weight="900" font-size="16" text-anchor="middle">JS</text>
+    <rect x="180" y="27" width="24" height="24" rx="4" fill="none" stroke="#ffffff" stroke-width="1.8" />
+    <text x="192" y="44" font-size="12" font-weight="900" font-family="sans-serif" text-anchor="middle">JS</text>
 
-    <text x="243" y="44" font-family="sans-serif" font-weight="900" font-size="16" text-anchor="middle">TS</text>
+    <rect x="252" y="27" width="24" height="24" rx="4" fill="none" stroke="#ffffff" stroke-width="1.8" />
+    <text x="264" y="44" font-size="12" font-weight="900" font-family="sans-serif" text-anchor="middle">TS</text>
 
-    <ellipse cx="308" cy="37" rx="12" ry="5" fill="none" stroke="#ffffff" stroke-width="1.6" transform="rotate(30 308 37)" />
-    <ellipse cx="308" cy="37" rx="12" ry="5" fill="none" stroke="#ffffff" stroke-width="1.6" transform="rotate(-30 308 37)" />
-    <ellipse cx="308" cy="37" rx="12" ry="5" fill="none" stroke="#ffffff" stroke-width="1.6" transform="rotate(90 308 37)" />
-    <circle cx="308" cy="37" r="2" fill="#ffffff" />
+    <ellipse cx="336" cy="39" rx="14" ry="5.5" fill="none" stroke="#ffffff" stroke-width="1.6" transform="rotate(30 336 39)" />
+    <ellipse cx="336" cy="39" rx="14" ry="5.5" fill="none" stroke="#ffffff" stroke-width="1.6" transform="rotate(-30 336 39)" />
+    <ellipse cx="336" cy="39" rx="14" ry="5.5" fill="none" stroke="#ffffff" stroke-width="1.6" transform="rotate(90 336 39)" />
+    <circle cx="336" cy="39" r="2.5" fill="#ffffff" />
 
-    <polygon points="373,28 385,34 385,46 373,52 361,46 361,34" fill="none" stroke="#ffffff" stroke-width="2" />
+    <polygon points="408,28 420,34 420,46 408,52 396,46 396,34" fill="none" stroke="#ffffff" stroke-width="2" />
+    <circle cx="408" cy="40" r="3" fill="#ffffff" />
 
-    <text x="438" y="44" font-family="sans-serif" font-weight="900" font-size="15" text-anchor="middle">C#</text>
-    <circle cx="503" cy="32" r="3.5" />
-    <circle cx="503" cy="44" r="3.5" />
-    <circle cx="496" cy="38" r="3.5" />
-    <line x1="503" y1="32" x2="503" y2="44" stroke="#ffffff" stroke-width="2" />
-    <circle cx="568" cy="37" r="9" fill="none" stroke="#ffffff" stroke-width="2" />
-    <path d="M625 38 Q630 31 635 34 T645 38" fill="none" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round" />
-    <circle cx="698" cy="33" r="4" fill="none" stroke="#ffffff" stroke-width="1.8" />
-    <circle cx="698" cy="41" r="4" fill="none" stroke="#ffffff" stroke-width="1.8" />
+    <text x="480" y="45" font-size="16" font-weight="900" font-family="sans-serif" text-anchor="middle">C#</text>
+
+    <circle cx="552" cy="34" r="3.5" /><circle cx="552" cy="46" r="3.5" /><circle cx="544" cy="40" r="3.5" />
+    <line x1="552" y1="34" x2="552" y2="46" stroke="#ffffff" stroke-width="2" />
+
+    <circle cx="624" cy="39" r="10" fill="none" stroke="#ffffff" stroke-width="2" />
+    <path d="M621 44 C621 41 627 41 627 44" stroke="#ffffff" stroke-width="2" fill="none" />
+
+    <circle cx="696" cy="34" r="4.5" fill="none" stroke="#ffffff" stroke-width="2" />
+    <circle cx="696" cy="44" r="4.5" fill="none" stroke="#ffffff" stroke-width="2" />
   </g>
 </svg>
