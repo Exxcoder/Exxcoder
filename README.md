@@ -19,11 +19,6 @@
 
   <br /><br /><br />
 
-  <p align="left" style="margin-left: 15px;">
-    <b>⚡ Неоновая матрица</b>
-  </p>
-  <img src="dot-matrix.svg?v=1" alt="EXXCODER Matrix Wave" width="100%" />
-
   <br /><br /><br />
 
   <p align="left" style="margin-left: 15px;">
@@ -83,3 +78,8 @@
     <i>Designed in Dark Glassmorphism aesthetic by Exxcoder</i>
   </p>
 </div>
+
+<p align="left" style="margin-left: 15px;">
+    <b>⚡ Неоновая матрица</b>
+  </p>
+  <img src="dot-matrix.svg?v=1" alt="EXXCODER Matrix Wave" width="100%" />
