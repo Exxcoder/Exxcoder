@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="74" viewBox="0 0 680 74">
+  <defs>
+    <linearGradient id="dockBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02" />
+    </linearGradient>
+    <linearGradient id="dockBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.3" />
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.05" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.2" />
+    </linearGradient>
+    <linearGradient id="iconCell" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.1" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.03" />
+    </linearGradient>
+  </defs>
+
+  <!-- Внешняя стеклянная капсула -->
+  <rect x="1" y="1" width="678" height="72" rx="36" fill="url(#dockBg)" stroke="url(#dockBorder)" stroke-width="1.2" />
+
+  <!-- Ячейки для иконок со скруглением -->
+  <g fill="url(#iconCell)" stroke="url(#dockBorder)" stroke-width="1">
+    <rect x="25" y="14" width="46" height="46" rx="12" />
+    <rect x="85" y="14" width="46" height="46" rx="12" />
+    <rect x="145" y="14" width="46" height="46" rx="12" />
+    <rect x="205" y="14" width="46" height="46" rx="12" />
+    <rect x="265" y="14" width="46" height="46" rx="12" />
+    <rect x="325" y="14" width="46" height="46" rx="12" />
+    <rect x="385" y="14" width="46" height="46" rx="12" />
+    <rect x="445" y="14" width="46" height="46" rx="12" />
+    <rect x="505" y="14" width="46" height="46" rx="12" />
+    <rect x="565" y="14" width="46" height="46" rx="12" />
+    <rect x="625" y="14" width="46" height="46" rx="12" />
+  </g>
+
+  <!-- Монохромный текст/символы технологий -->
+  <g fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-weight="700" font-size="13" text-anchor="middle">
+    <text x="48" y="42">HTML</text>
+    <text x="108" y="42">CSS</text>
+    <text x="168" y="42">JS</text>
+    <text x="228" y="42">TS</text>
+    <text x="288" y="42">React</text>
+    <text x="348" y="42">Tail</text>
+    <text x="408" y="42">Node</text>
+    <text x="468" y="42">C#</text>
+    <text x="528" y="42">Git</text>
+    <text x="588" y="42">GH</text>
+    <text x="648" y="42">Figma</text>
+  </g>
+</svg>
