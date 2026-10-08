@@ -1,70 +1,146 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="760" height="78" viewBox="0 0 760 78">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="86" viewBox="0 0 800 86">
   <defs>
-    <linearGradient id="dockBar" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.08" />
-      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.01" />
+
+    <linearGradient id="dockGlass" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.10" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02" />
     </linearGradient>
-    <linearGradient id="dockBorder" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.35" />
+    <linearGradient id="dockStroke" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.38" />
       <stop offset="50%" stop-color="#ffffff" stop-opacity="0.06" />
-      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.22" />
     </linearGradient>
-    <linearGradient id="badge3D" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.2" />
-      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.04" />
-      <stop offset="100%" stop-color="#000000" stop-opacity="0.3" />
+
+    <linearGradient id="tokenGlass" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#242b35" />
+      <stop offset="35%" stop-color="#14181f" />
+      <stop offset="100%" stop-color="#090b0e" />
+    </linearGradient>
+    <linearGradient id="tokenBevel" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.65" />
+      <stop offset="35%" stop-color="#ffffff" stop-opacity="0.12" />
+      <stop offset="70%" stop-color="#000000" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.35" />
+    </linearGradient>
+
+    <linearGradient id="topGlare" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.30" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.0" />
     </linearGradient>
   </defs>
 
+  <rect x="2" y="2" width="796" height="82" rx="41" fill="url(#dockGlass)" stroke="url(#dockStroke)" stroke-width="1.3" />
 
-  <rect x="2" y="2" width="756" height="74" rx="37" fill="url(#dockBar)" stroke="url(#dockBorder)" stroke-width="1.4" />
+  <g transform="translate(30, 15)">
+    <rect width="56" height="56" rx="16" fill="url(#tokenGlass)" stroke="url(#tokenBevel)" stroke-width="1.2" />
+    <path d="M 2 16 Q 2 2 16 2 L 40 2 Q 54 2 54 16 L 54 24 Q 28 32 2 24 Z" fill="url(#topGlare)" />
 
-
-  <g fill="url(#badge3D)" stroke="url(#dockBorder)" stroke-width="1">
-    <rect x="24" y="15" width="48" height="48" rx="14" />
-    <rect x="96" y="15" width="48" height="48" rx="14" />
-    <rect x="168" y="15" width="48" height="48" rx="14" />
-    <rect x="240" y="15" width="48" height="48" rx="14" />
-    <rect x="312" y="15" width="48" height="48" rx="14" />
-    <rect x="384" y="15" width="48" height="48" rx="14" />
-    <rect x="456" y="15" width="48" height="48" rx="14" />
-    <rect x="528" y="15" width="48" height="48" rx="14" />
-    <rect x="600" y="15" width="48" height="48" rx="14" />
-    <rect x="672" y="15" width="48" height="48" rx="14" />
+    <g transform="translate(16, 14) scale(1.0)" fill="#ffffff">
+      <path d="M2.5 1.5 L4.5 21.5 L12 23.5 L19.5 21.5 L21.5 1.5 Z M17.6 6.8 L11.9 6.8 L11.9 9.4 L17.3 9.4 L16.8 14.8 L12 16.2 L7.2 14.8 L6.9 11.2 L9.3 11.2 L9.5 13.1 L12 13.8 L14.5 13.1 L14.7 11.5 L7 11.5 L6.4 4.5 L17.8 4.5 Z"/>
+    </g>
   </g>
 
 
-  <g fill="#ffffff">
+  <g transform="translate(106, 15)">
+    <rect width="56" height="56" rx="16" fill="url(#tokenGlass)" stroke="url(#tokenBevel)" stroke-width="1.2" />
+    <path d="M 2 16 Q 2 2 16 2 L 40 2 Q 54 2 54 16 L 54 24 Q 28 32 2 24 Z" fill="url(#topGlare)" />
 
-    <path d="M38 29 L41 49 L48 51 L55 49 L58 29 Z" fill="none" stroke="#ffffff" stroke-width="2" />
-    <text x="48" y="44" font-size="10" font-weight="900" font-family="sans-serif" text-anchor="middle">5</text>
+    <g transform="translate(16, 14) scale(1.0)" fill="#ffffff">
+      <path d="M2.5 1.5 L4.5 21.5 L12 23.5 L19.5 21.5 L21.5 1.5 Z M17.6 6.8 L6.7 6.8 L7.1 11.4 L14.8 11.4 L14.5 14.2 L12 14.9 L9.5 14.2 L9.3 12.8 L6.9 12.8 L7.2 15.8 L12 17.2 L16.8 15.8 L17.4 9.1 L9.1 9.1 L8.9 4.5 L17.8 4.5 Z"/>
+    </g>
+  </g>
 
-    <path d="M110 29 L113 49 L120 51 L127 49 L130 29 Z" fill="none" stroke="#ffffff" stroke-width="2" />
-    <text x="120" y="44" font-size="10" font-weight="900" font-family="sans-serif" text-anchor="middle">3</text>
 
-    <rect x="180" y="27" width="24" height="24" rx="4" fill="none" stroke="#ffffff" stroke-width="1.8" />
-    <text x="192" y="44" font-size="12" font-weight="900" font-family="sans-serif" text-anchor="middle">JS</text>
+  <g transform="translate(182, 15)">
+    <rect width="56" height="56" rx="16" fill="url(#tokenGlass)" stroke="url(#tokenBevel)" stroke-width="1.2" />
+    <path d="M 2 16 Q 2 2 16 2 L 40 2 Q 54 2 54 16 L 54 24 Q 28 32 2 24 Z" fill="url(#topGlare)" />
 
-    <rect x="252" y="27" width="24" height="24" rx="4" fill="none" stroke="#ffffff" stroke-width="1.8" />
-    <text x="264" y="44" font-size="12" font-weight="900" font-family="sans-serif" text-anchor="middle">TS</text>
+    <g transform="translate(16, 15) fill="#ffffff"">
+      <rect x="0" y="0" width="24" height="24" rx="4" fill="none" stroke="#ffffff" stroke-width="1.8" />
+      <text x="6" y="17" font-family="-apple-system, sans-serif" font-weight="900" font-size="12" fill="#ffffff">J</text>
+      <text x="12" y="17" font-family="-apple-system, sans-serif" font-weight="900" font-size="12" fill="#ffffff">S</text>
+    </g>
+  </g>
 
-    <ellipse cx="336" cy="39" rx="14" ry="5.5" fill="none" stroke="#ffffff" stroke-width="1.6" transform="rotate(30 336 39)" />
-    <ellipse cx="336" cy="39" rx="14" ry="5.5" fill="none" stroke="#ffffff" stroke-width="1.6" transform="rotate(-30 336 39)" />
-    <ellipse cx="336" cy="39" rx="14" ry="5.5" fill="none" stroke="#ffffff" stroke-width="1.6" transform="rotate(90 336 39)" />
-    <circle cx="336" cy="39" r="2.5" fill="#ffffff" />
 
-    <polygon points="408,28 420,34 420,46 408,52 396,46 396,34" fill="none" stroke="#ffffff" stroke-width="2" />
-    <circle cx="408" cy="40" r="3" fill="#ffffff" />
+  <g transform="translate(258, 15)">
+    <rect width="56" height="56" rx="16" fill="url(#tokenGlass)" stroke="url(#tokenBevel)" stroke-width="1.2" />
+    <path d="M 2 16 Q 2 2 16 2 L 40 2 Q 54 2 54 16 L 54 24 Q 28 32 2 24 Z" fill="url(#topGlare)" />
 
-    <text x="480" y="45" font-size="16" font-weight="900" font-family="sans-serif" text-anchor="middle">C#</text>
+    <g transform="translate(16, 15)">
+      <rect x="0" y="0" width="24" height="24" rx="4" fill="none" stroke="#ffffff" stroke-width="1.8" />
+      <text x="5" y="17" font-family="-apple-system, sans-serif" font-weight="900" font-size="12" fill="#ffffff">T</text>
+      <text x="13" y="17" font-family="-apple-system, sans-serif" font-weight="900" font-size="12" fill="#ffffff">S</text>
+    </g>
+  </g>
 
-    <circle cx="552" cy="34" r="3.5" /><circle cx="552" cy="46" r="3.5" /><circle cx="544" cy="40" r="3.5" />
-    <line x1="552" y1="34" x2="552" y2="46" stroke="#ffffff" stroke-width="2" />
 
-    <circle cx="624" cy="39" r="10" fill="none" stroke="#ffffff" stroke-width="2" />
-    <path d="M621 44 C621 41 627 41 627 44" stroke="#ffffff" stroke-width="2" fill="none" />
+  <g transform="translate(334, 15)">
+    <rect width="56" height="56" rx="16" fill="url(#tokenGlass)" stroke="url(#tokenBevel)" stroke-width="1.2" />
+    <path d="M 2 16 Q 2 2 16 2 L 40 2 Q 54 2 54 16 L 54 24 Q 28 32 2 24 Z" fill="url(#topGlare)" />
 
-    <circle cx="696" cy="34" r="4.5" fill="none" stroke="#ffffff" stroke-width="2" />
-    <circle cx="696" cy="44" r="4.5" fill="none" stroke="#ffffff" stroke-width="2" />
+    <g transform="translate(28, 28)">
+      <ellipse cx="0" cy="0" rx="15" ry="5.5" fill="none" stroke="#ffffff" stroke-width="1.6" transform="rotate(30)" />
+      <ellipse cx="0" cy="0" rx="15" ry="5.5" fill="none" stroke="#ffffff" stroke-width="1.6" transform="rotate(-30)" />
+      <ellipse cx="0" cy="0" rx="15" ry="5.5" fill="none" stroke="#ffffff" stroke-width="1.6" transform="rotate(90)" />
+      <circle cx="0" cy="0" r="2.8" fill="#ffffff" />
+    </g>
+  </g>
+
+
+  <g transform="translate(410, 15)">
+    <rect width="56" height="56" rx="16" fill="url(#tokenGlass)" stroke="url(#tokenBevel)" stroke-width="1.2" />
+    <path d="M 2 16 Q 2 2 16 2 L 40 2 Q 54 2 54 16 L 54 24 Q 28 32 2 24 Z" fill="url(#topGlare)" />
+
+    <g transform="translate(16, 14)" fill="none" stroke="#ffffff" stroke-width="1.8">
+      <polygon points="12,1 23,7.5 23,20.5 12,27 1,20.5 1,7.5" />
+      <path d="M8 17 L8 11 L16 17 L16 11" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+  </g>
+
+  <g transform="translate(486, 15)">
+    <rect width="56" height="56" rx="16" fill="url(#tokenGlass)" stroke="url(#tokenBevel)" stroke-width="1.2" />
+    <path d="M 2 16 Q 2 2 16 2 L 40 2 Q 54 2 54 16 L 54 24 Q 28 32 2 24 Z" fill="url(#topGlare)" />
+
+    <g transform="translate(15, 14)">
+      <text x="7" y="19" font-family="-apple-system, sans-serif" font-weight="900" font-size="16" fill="#ffffff">C</text>
+      <text x="18" y="14" font-family="-apple-system, sans-serif" font-weight="900" font-size="11" fill="#ffffff">#</text>
+    </g>
+  </g>
+
+
+  <g transform="translate(562, 15)">
+    <rect width="56" height="56" rx="16" fill="url(#tokenGlass)" stroke="url(#tokenBevel)" stroke-width="1.2" />
+    <path d="M 2 16 Q 2 2 16 2 L 40 2 Q 54 2 54 16 L 54 24 Q 28 32 2 24 Z" fill="url(#topGlare)" />
+
+    <g transform="translate(16, 15)" fill="#ffffff">
+      <circle cx="18" cy="7" r="3" />
+      <circle cx="18" cy="18" r="3" />
+      <circle cx="6" cy="10" r="3" />
+      <path d="M17 7 L17 18 M7 12 C10 16 14 17 17 17" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" />
+    </g>
+  </g>
+
+
+  <g transform="translate(638, 15)">
+    <rect width="56" height="56" rx="16" fill="url(#tokenGlass)" stroke="url(#tokenBevel)" stroke-width="1.2" />
+    <path d="M 2 16 Q 2 2 16 2 L 40 2 Q 54 2 54 16 L 54 24 Q 28 32 2 24 Z" fill="url(#topGlare)" />
+
+    <g transform="translate(15, 15) scale(1.08)" fill="#ffffff">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"/>
+    </g>
+  </g>
+
+  <g transform="translate(714, 15)">
+    <rect width="56" height="56" rx="16" fill="url(#tokenGlass)" stroke="url(#tokenBevel)" stroke-width="1.2" />
+    <path d="M 2 16 Q 2 2 16 2 L 40 2 Q 54 2 54 16 L 54 24 Q 28 32 2 24 Z" fill="url(#topGlare)" />
+
+    <g transform="translate(18, 14) scale(0.95)" fill="#ffffff">
+      <path d="M8 2 C5.79 2 4 3.79 4 6 C4 8.21 5.79 10 8 10 L12 10 L12 2 Z" />
+      <path d="M16 2 C18.21 2 20 3.79 20 6 C20 8.21 18.21 10 16 10 L12 10 L12 2 Z" />
+      <path d="M8 10 C5.79 10 4 11.79 4 14 C4 16.21 5.79 18 8 18 L12 18 L12 10 Z" />
+      <circle cx="16" cy="14" r="4" />
+      <path d="M8 18 C5.79 18 4 19.79 4 22 C4 24.21 5.79 26 8 26 C10.21 26 12 24.21 12 22 L12 18 Z" />
+    </g>
   </g>
 </svg>
