@@ -20,6 +20,13 @@
   <br /><br /><br />
 
   <p align="left" style="margin-left: 15px;">
+    <b>⚡ Неоновая матрица</b>
+  </p>
+  <img src="dot-matrix.svg?v=1" alt="EXXCODER Matrix Wave" width="100%" />
+
+  <br /><br /><br />
+
+  <p align="left" style="margin-left: 15px;">
     <b>📊 Активность на GitHub</b>
   </p>
   <img src="stats-dock.svg?v=2" alt="GitHub Analytics" width="100%" />
