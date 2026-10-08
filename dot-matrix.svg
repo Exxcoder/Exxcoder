@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 160" width="100%">
+  <defs>
+    <style>
+      .bg-dot { fill: #21262d; opacity: 0.35; }
+      .glow-dot {
+        fill: #ffffff;
+        animation: pulseWave 3.5s infinite ease-in-out;
+      }
+      .d1 { animation-delay: 0.1s; }
+      .d2 { animation-delay: 0.3s; }
+      .d3 { animation-delay: 0.5s; }
+      .d4 { animation-delay: 0.7s; }
+      .d5 { animation-delay: 0.9s; }
+      .d6 { animation-delay: 1.1s; }
+      .d7 { animation-delay: 1.3s; }
+
+      @keyframes pulseWave {
+        0%, 100% { opacity: 0.15; fill: #30363d; }
+        50% { opacity: 1; fill: #ffffff; filter: drop-shadow(0 0 4px #ffffff); }
+      }
+    </style>
+
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02" />
+    </linearGradient>
+    <linearGradient id="cardBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.05" />
+    </linearGradient>
+  </defs>
+
+  <!-- Стеклянная панель подложки -->
+  <rect x="2" y="2" width="796" height="156" rx="20" fill="url(#cardBg)" stroke="url(#cardBorder)" stroke-width="1.2" />
+
+  <!-- Точечная сетка фона (фрагмент) -->
+  <g class="bg-dot">
+    <!-- Фоновые точки генерируются регулярным паттерном -->
+    <circle cx="100" cy="50" r="2" /><circle cx="120" cy="50" r="2" /><circle cx="140" cy="50" r="2" /><circle cx="160" cy="50" r="2" />
+    <circle cx="100" cy="80" r="2" /><circle cx="120" cy="80" r="2" /><circle cx="140" cy="80" r="2" /><circle cx="160" cy="80" r="2" />
+    <circle cx="100" cy="110" r="2" /><circle cx="120" cy="110" r="2" /><circle cx="140" cy="110" r="2" /><circle cx="160" cy="110" r="2" />
+    <circle cx="640" cy="50" r="2" /><circle cx="660" cy="50" r="2" /><circle cx="680" cy="50" r="2" /><circle cx="700" cy="50" r="2" />
+    <circle cx="640" cy="80" r="2" /><circle cx="660" cy="80" r="2" /><circle cx="680" cy="80" r="2" /><circle cx="700" cy="80" r="2" />
+    <circle cx="640" cy="110" r="2" /><circle cx="660" cy="110" r="2" /><circle cx="680" cy="110" r="2" /><circle cx="700" cy="110" r="2" />
+  </g>
+
+  <!-- Интерактивная надпись EXXCODER из анимированных светодиодов -->
+  <g>
+    <!-- Буква E -->
+    <g class="glow-dot d1">
+      <circle cx="210" cy="55" r="3.5" /><circle cx="225" cy="55" r="3.5" /><circle cx="240" cy="55" r="3.5" />
+      <circle cx="210" cy="70" r="3.5" />
+      <circle cx="210" cy="85" r="3.5" /><circle cx="225" cy="85" r="3.5" />
+      <circle cx="210" cy="100" r="3.5" />
+      <circle cx="210" cy="115" r="3.5" /><circle cx="225" cy="115" r="3.5" /><circle cx="240" cy="115" r="3.5" />
+    </g>
+
+    <!-- Буква X -->
+    <g class="glow-dot d2">
+      <circle cx="265" cy="55" r="3.5" /><circle cx="295" cy="55" r="3.5" />
+      <circle cx="272" cy="70" r="3.5" /><circle cx="288" cy="70" r="3.5" />
+      <circle cx="280" cy="85" r="4" />
+      <circle cx="272" cy="100" r="3.5" /><circle cx="288" cy="100" r="3.5" />
+      <circle cx="265" cy="115" r="3.5" /><circle cx="295" cy="115" r="3.5" />
+    </g>
+
+    <!-- Буква X -->
+    <g class="glow-dot d3">
+      <circle cx="320" cy="55" r="3.5" /><circle cx="350" cy="55" r="3.5" />
+      <circle cx="327" cy="70" r="3.5" /><circle cx="343" cy="70" r="3.5" />
+      <circle cx="335" cy="85" r="4" />
+      <circle cx="327" cy="100" r="3.5" /><circle cx="343" cy="100" r="3.5" />
+      <circle cx="320" cy="115" r="3.5" /><circle cx="350" cy="115" r="3.5" />
+    </g>
+
+    <!-- Буква C -->
+    <g class="glow-dot d4">
+      <circle cx="395" cy="55" r="3.5" /><circle cx="410" cy="55" r="3.5" />
+      <circle cx="380" cy="70" r="3.5" />
+      <circle cx="380" cy="85" r="3.5" />
+      <circle cx="380" cy="100" r="3.5" />
+      <circle cx="395" cy="115" r="3.5" /><circle cx="410" cy="115" r="3.5" />
+    </g>
+
+    <!-- Буква O -->
+    <g class="glow-dot d5">
+      <circle cx="445" cy="55" r="3.5" /><circle cx="460" cy="55" r="3.5" />
+      <circle cx="435" cy="70" r="3.5" /><circle cx="470" cy="70" r="3.5" />
+      <circle cx="435" cy="85" r="3.5" /><circle cx="470" cy="85" r="3.5" />
+      <circle cx="435" cy="100" r="3.5" /><circle cx="470" cy="100" r="3.5" />
+      <circle cx="445" cy="115" r="3.5" /><circle cx="460" cy="115" r="3.5" />
+    </g>
+
+    <!-- Буква D -->
+    <g class="glow-dot d6">
+      <circle cx="495" cy="55" r="3.5" /><circle cx="515" cy="55" r="3.5" />
+      <circle cx="495" cy="70" r="3.5" /><circle cx="525" cy="70" r="3.5" />
+      <circle cx="495" cy="85" r="3.5" /><circle cx="525" cy="85" r="3.5" />
+      <circle cx="495" cy="100" r="3.5" /><circle cx="525" cy="100" r="3.5" />
+      <circle cx="495" cy="115" r="3.5" /><circle cx="515" cy="115" r="3.5" />
+    </g>
+
+    <!-- Буква E -->
+    <g class="glow-dot d7">
+      <circle cx="550" cy="55" r="3.5" /><circle cx="565" cy="55" r="3.5" /><circle cx="580" cy="55" r="3.5" />
+      <circle cx="550" cy="70" r="3.5" />
+      <circle cx="550" cy="85" r="3.5" /><circle cx="565" cy="85" r="3.5" />
+      <circle cx="550" cy="100" r="3.5" />
+      <circle cx="550" cy="115" r="3.5" /><circle cx="565" cy="115" r="3.5" /><circle cx="580" cy="115" r="3.5" />
+    </g>
+  </g>
+</svg>
