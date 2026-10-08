@@ -8,7 +8,7 @@
 
   <br />
 
-  <p><a href="https://exxcoder.github.io/Portfolio/" target="_blank"><img src="btn-portfolio.svg" height="38" alt="Портфолио" /></a>&nbsp;&nbsp;<a href="https://t.me/твой_ник_в_тг" target="_blank"><img src="btn-telegram.svg" height="38" alt="Telegram" /></a>&nbsp;&nbsp;<a href="mailto:твой_email@example.com"><img src="btn-email.svg" height="38" alt="Email" /></a></p>
+  <p><a href="https://exxcoder.github.io/Portfolio/" target="_blank"><img src="btn-portfolio.svg" height="38" alt="Портфолио" /></a>&nbsp;&nbsp;<a href="https://t.me/твой_ник_в_тг" target="_blank"><img src="btn-telegram.svg" height="38" alt="Telegram" /></a>&nbsp;&nbsp;<a href="mailto:vladoswd@gmail.com"><img src="btn-email.svg" height="38" alt="Email" /></a></p>
 
   <br />
 
